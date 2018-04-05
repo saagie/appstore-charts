@@ -2,8 +2,11 @@
 push :
 
 helm package {path to chart}
+
 mv {chart packaged} path/to/appstore-charts
+
 helm repo index path/to/appstore-charts
+
 push les changemens sur le dépôt
 
 
