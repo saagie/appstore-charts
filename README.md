@@ -18,6 +18,7 @@ ensuite : helm repo update
 
 pour voir les différents charts : helm search
 
-puis : helm install appstore-charts/{nom de du chart}
+puis : 
+helm install [--set resources.limits.cpu=0.6 --set resources.requests.cpu=0.3 --set resources.limits.memory=3Gi --set resources.requests.memory=2Gi --set storageSize=5Gi] appstore-charts/{nom de du chart}
 
 (pour tester sur minikube) minikube service {nom du chart}

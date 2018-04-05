@@ -3,11 +3,20 @@ entries:
   jupyter-python-nbk:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-05T11:16:34.740045127+02:00
+    created: 2018-04-05T17:56:01.11487418+02:00
+    description: A Helm chart for Kubernetes
+    digest: cd64a4a9b28e1eb27e7c3db33accd722bee38fd70d3ee374fc2107ad0c142ce8
+    name: jupyter-python-nbk
+    urls:
+    - jupyter-python-nbk-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-04-05T17:56:01.114593129+02:00
     description: A Helm chart for Kubernetes
     digest: 44cd154db20b9282ded372ae76a8a3e892495ff76ab5d97218e20f599326977e
     name: jupyter-python-nbk
     urls:
     - jupyter-python-nbk-0.1.0.tgz
     version: 0.1.0
-generated: 2018-04-05T11:16:34.739689957+02:00
+generated: 2018-04-05T17:56:01.113258941+02:00
