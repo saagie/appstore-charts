@@ -3,11 +3,11 @@ entries:
   jupyter-python-nbk:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-05T10:51:49.418471289+02:00
+    created: 2018-04-05T11:06:12.705627122+02:00
     description: A Helm chart for Kubernetes
     digest: 25462df577717dbb20a7d6d93b9152fbcdaf65b538a30bb22d9b5e84a8bbe3a8
     name: jupyter-python-nbk
     urls:
-    - https://saagie.github.io/appstore-charts/jupyter-python-nbk-0.1.0.tgz
+    - jupyter-python-nbk-0.1.0.tgz
     version: 0.1.0
-generated: 2018-04-05T10:51:49.417075604+02:00
+generated: 2018-04-05T11:06:12.705219573+02:00
