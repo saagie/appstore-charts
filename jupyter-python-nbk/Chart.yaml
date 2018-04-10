@@ -8,8 +8,10 @@ name: jupyter-python-nbk
 version: 1.1.0
 keywords:
   - jupyter
+    python
 home: http://jupyter.org/
 maintainers:
   - name: jupyter
-  - url: http://jupyter.org/
+    url: http://jupyter.org/
+    email: truc@jupyter.org
 icon: http://jupyter.org/assets/nav_logo.svg
