@@ -3,7 +3,7 @@ entries:
   jupyter-haskell-nbk:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-09T11:18:02.544968561+02:00
+    created: 2018-04-10T13:44:24.931309545+02:00
     description: A Helm chart for Kubernetes
     digest: d91f8ef010a4c13e0578ca86923f71bbbee872f3f41a89e582aaf9aaf9b2b44b
     name: jupyter-haskell-nbk
@@ -13,7 +13,27 @@ entries:
   jupyter-python-nbk:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-09T11:18:02.576899883+02:00
+    created: 2018-04-10T13:44:24.934170943+02:00
+    description: The Jupyter Notebook is an open-source web application that allows
+      you to create and share documents that contain live code, equations, visualizations
+      and narrative text. Uses include data cleaning and transformation, numerical
+      simulation, statistical modeling, data visualization, machine learning, and
+      much more.
+    digest: d1b8850677f8bbfbc3b470d344da8ae183155d2fcabd1a9ee81a9d741436e1f0
+    home: http://jupyter.org/
+    icon: http://jupyter.org/assets/nav_logo.svg
+    keywords:
+    - jupyter
+    maintainers:
+    - name: jupyter
+    - url: http://jupyter.org/
+    name: jupyter-python-nbk
+    urls:
+    - jupyter-python-nbk-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-04-10T13:44:24.933747035+02:00
     description: A Helm chart for Kubernetes
     digest: 69ac00bca5524497a6eced81f2955da60e62b2228953ab45010792352a84eb4e
     name: jupyter-python-nbk
@@ -22,7 +42,7 @@ entries:
     version: 1.0.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-09T11:18:02.57649338+02:00
+    created: 2018-04-10T13:44:24.93251803+02:00
     description: A Helm chart for Kubernetes
     digest: 44cd154db20b9282ded372ae76a8a3e892495ff76ab5d97218e20f599326977e
     name: jupyter-python-nbk
@@ -32,11 +52,11 @@ entries:
   jupyter-r-nbk:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-09T11:18:02.577298577+02:00
+    created: 2018-04-10T13:44:24.935313917+02:00
     description: A Helm chart for Kubernetes
     digest: 3ff5a91e5878fe37d16b0656ad871cc5d2bf69f8ebc54bf7940b60f208a48619
     name: jupyter-r-nbk
     urls:
     - jupyter-r-nbk-1.0.0.tgz
     version: 1.0.0
-generated: 2018-04-09T11:18:02.515216484+02:00
+generated: 2018-04-10T13:44:24.92997273+02:00
