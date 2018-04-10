@@ -3,7 +3,7 @@ entries:
   jupyter-haskell-nbk:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-10T14:03:16.527678796+02:00
+    created: 2018-04-10T14:38:04.517761159+02:00
     description: A Helm chart for Kubernetes
     digest: d91f8ef010a4c13e0578ca86923f71bbbee872f3f41a89e582aaf9aaf9b2b44b
     name: jupyter-haskell-nbk
@@ -13,7 +13,7 @@ entries:
   jupyter-python-nbk:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-10T14:03:16.528507651+02:00
+    created: 2018-04-10T14:38:04.520279289+02:00
     description: The Jupyter Notebook is an open-source web application that allows
       you to create and share documents that contain live code, equations, visualizations
       and narrative text. Uses include data cleaning and transformation, numerical
@@ -33,7 +33,7 @@ entries:
     version: 1.1.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-10T14:03:16.528159736+02:00
+    created: 2018-04-10T14:38:04.519846745+02:00
     description: A Helm chart for Kubernetes
     digest: 69ac00bca5524497a6eced81f2955da60e62b2228953ab45010792352a84eb4e
     name: jupyter-python-nbk
@@ -42,7 +42,7 @@ entries:
     version: 1.0.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-10T14:03:16.527913011+02:00
+    created: 2018-04-10T14:38:04.518778791+02:00
     description: A Helm chart for Kubernetes
     digest: 44cd154db20b9282ded372ae76a8a3e892495ff76ab5d97218e20f599326977e
     name: jupyter-python-nbk
@@ -52,11 +52,11 @@ entries:
   jupyter-r-nbk:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-10T14:03:16.528719222+02:00
+    created: 2018-04-10T14:38:04.521373106+02:00
     description: A Helm chart for Kubernetes
     digest: 3ff5a91e5878fe37d16b0656ad871cc5d2bf69f8ebc54bf7940b60f208a48619
     name: jupyter-r-nbk
     urls:
     - jupyter-r-nbk-1.0.0.tgz
     version: 1.0.0
-generated: 2018-04-10T14:03:16.527253186+02:00
+generated: 2018-04-10T14:38:04.51646953+02:00
