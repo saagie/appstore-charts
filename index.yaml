@@ -1,9 +1,28 @@
 apiVersion: v1
 entries:
+  dataiku-dss:
+  - apiVersion: v1
+    appVersion: 4.2.2
+    created: 2018-04-30T11:46:03.523390198+02:00
+    description: Dataiku DSS is the collaborative data science software platform for
+      teams of data scientists, data analysts, and engineers to explore, prototype,
+      build, and deliver their own data products more efficiently.
+    digest: 146b93adc77da7f1477a4eb651133eb1329af28577641b13fcb3bca8268be748
+    home: https://www.dataiku.com/
+    icon: https://www.dataiku.com/static/img/theme/logo/dataiku.png
+    keywords:
+    - dataiku
+    maintainers:
+    - name: dataiku
+      url: https://www.dataiku.com/
+    name: dataiku-dss
+    urls:
+    - dataiku-dss-0.1.0.tgz
+    version: 0.1.0
   jupyter-haskell-nbk:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-25T18:03:36.442100155+02:00
+    created: 2018-04-30T11:46:03.56301175+02:00
     description: The Jupyter Notebook is an open-source web application that allows
       you to create and share documents that contain live code, equations, visualizations
       and narrative text. Uses include data cleaning and transformation, numerical
@@ -24,7 +43,7 @@ entries:
     version: 1.3.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-25T18:03:36.439858304+02:00
+    created: 2018-04-30T11:46:03.552993957+02:00
     description: The Jupyter Notebook is an open-source web application that allows
       you to create and share documents that contain live code, equations, visualizations
       and narrative text. Uses include data cleaning and transformation, numerical
@@ -45,7 +64,7 @@ entries:
     version: 1.2.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-25T18:03:36.42590027+02:00
+    created: 2018-04-30T11:46:03.546691461+02:00
     description: The Jupyter Notebook is an open-source web application that allows
       you to create and share documents that contain live code, equations, visualizations
       and narrative text. Uses include data cleaning and transformation, numerical
@@ -66,7 +85,7 @@ entries:
     version: 1.1.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-25T18:03:36.424251582+02:00
+    created: 2018-04-30T11:46:03.545790482+02:00
     description: A Helm chart for Kubernetes
     digest: d91f8ef010a4c13e0578ca86923f71bbbee872f3f41a89e582aaf9aaf9b2b44b
     name: jupyter-haskell-nbk
@@ -76,7 +95,7 @@ entries:
   jupyter-python-nbk:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-25T18:03:36.445286251+02:00
+    created: 2018-04-30T11:46:03.565974063+02:00
     description: The Jupyter Notebook is an open-source web application that allows
       you to create and share documents that contain live code, equations, visualizations
       and narrative text. Uses include data cleaning and transformation, numerical
@@ -97,7 +116,7 @@ entries:
     version: 1.1.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-25T18:03:36.443673891+02:00
+    created: 2018-04-30T11:46:03.564453635+02:00
     description: A Helm chart for Kubernetes
     digest: 69ac00bca5524497a6eced81f2955da60e62b2228953ab45010792352a84eb4e
     name: jupyter-python-nbk
@@ -107,7 +126,7 @@ entries:
   jupyter-r-nbk:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-25T18:03:36.448349793+02:00
+    created: 2018-04-30T11:46:03.568846896+02:00
     description: The Jupyter Notebook is an open-source web application that allows
       you to create and share documents that contain live code, equations, visualizations
       and narrative text. Uses include data cleaning and transformation, numerical
@@ -128,11 +147,11 @@ entries:
     version: 1.1.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-25T18:03:36.446732429+02:00
+    created: 2018-04-30T11:46:03.567299638+02:00
     description: A Helm chart for Kubernetes
     digest: 3ff5a91e5878fe37d16b0656ad871cc5d2bf69f8ebc54bf7940b60f208a48619
     name: jupyter-r-nbk
     urls:
     - jupyter-r-nbk-1.0.0.tgz
     version: 1.0.0
-generated: 2018-04-25T18:03:36.399117351+02:00
+generated: 2018-04-30T11:46:03.521112526+02:00
