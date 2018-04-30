@@ -1,0 +1,42 @@
+apiVersion: apps/v1beta2
+kind: Deployment
+metadata:
+  name: {{ template "dataiku-dss.fullname" . }}
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: {{ template "dataiku-dss.fullname" . }}
+  template:
+    metadata:
+      labels:
+        app: {{ template "dataiku-dss.fullname" . }}
+    spec:
+      initContainers:
+              - name: volume-mount-hack
+                image: busybox
+                command: ["sh", "-c", "chmod -R 777 /mnt/data"]
+                volumeMounts:
+                  - name: task-pv-storage
+                    mountPath: /mnt/data
+      containers:
+        - name: {{ .Chart.Name }}
+          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          ports:
+            - containerPort: 10000
+          volumeMounts:
+            - name: task-pv-storage
+              mountPath: /home/dataiku/dss
+            - name: hadoop-conf-claim
+              mountPath: /etc/hadoop/conf
+              readOnly: true
+          resources:
+{{ toYaml .Values.resources | indent 12 }}
+      volumes:
+        - name: task-pv-storage
+          persistentVolumeClaim:
+            claimName: task-pv-claim-{{ template "dataiku-dss.fullname" . }}
+        - name: hadoop-conf-claim
+          persistentVolumeClaim:
+            claimName: hadoop-conf-claim

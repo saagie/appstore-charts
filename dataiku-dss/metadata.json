@@ -1,0 +1,11 @@
+{
+	"displayTitle": "Dataiku DSS",
+	"categories": [
+		"Data Science"
+	],
+	"icon": "dataiku.png",
+	"screenshots": [
+		"Screenshot_projects_dataiku.png",
+		"Screenshot_catalog_dataiku.png"
+	]
+}

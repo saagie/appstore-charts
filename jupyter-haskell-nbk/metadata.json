@@ -1,0 +1,12 @@
+{
+	"displayTitle": "jupyter haskell notebook",
+	"video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+	"categories": [
+		"Data Science"
+	],
+	"icon": "icon_jupyter.svg",
+	"screenshots": [
+		"screenshot_jupyter_1.png",
+		"screenshot_jupyter_2.png"
+	]
+}

@@ -1,0 +1,14 @@
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: task-pv-volume-{{ template "dataiku-dss.fullname" . }}
+  labels:
+    type:
+spec:
+  storageClassName: manual
+  capacity:
+    storage: {{ .Values.storageSize }}
+  accessModes:
+    - ReadWriteOnce
+  hostPath:
+    path: /mnt/data/{{ template "dataiku-dss.fullname" . }}
