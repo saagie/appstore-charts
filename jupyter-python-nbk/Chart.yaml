@@ -5,7 +5,7 @@ description: The Jupyter Notebook is an open-source web application that allows 
   transformation, numerical simulation, statistical modeling, data visualization,
   machine learning, and much more.
 name: jupyter-python-nbk
-version: 1.1.0
+version: 1.2.0
 keywords:
   - jupyter
     python
@@ -13,5 +13,4 @@ home: http://jupyter.org/
 maintainers:
   - name: jupyter
     url: http://jupyter.org/
-    email: truc@jupyter.org
 icon: http://jupyter.org/assets/nav_logo.svg

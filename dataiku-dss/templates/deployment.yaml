@@ -13,12 +13,12 @@ spec:
         app: {{ template "dataiku-dss.fullname" . }}
     spec:
       initContainers:
-              - name: volume-mount-hack
-                image: busybox
-                command: ["sh", "-c", "chmod -R 777 /mnt/data"]
-                volumeMounts:
-                  - name: task-pv-storage
-                    mountPath: /mnt/data
+        - name: volume-mount-hack
+          image: busybox
+          command: ["sh", "-c", "chmod -R 777 /mnt/data && rm -rf /mnt/data/lost+found"]
+          volumeMounts:
+            - name: task-pv-storage
+              mountPath: /mnt/data
       containers:
         - name: {{ .Chart.Name }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
@@ -28,7 +28,7 @@ spec:
           volumeMounts:
             - name: task-pv-storage
               mountPath: /home/dataiku/dss
-            - name: hadoop-conf-claim
+            - name: config-volume
               mountPath: /etc/hadoop/conf
               readOnly: true
           resources:
@@ -37,6 +37,7 @@ spec:
         - name: task-pv-storage
           persistentVolumeClaim:
             claimName: task-pv-claim-{{ template "dataiku-dss.fullname" . }}
-        - name: hadoop-conf-claim
-          persistentVolumeClaim:
-            claimName: hadoop-conf-claim
+        - name: config-volume
+          configMap:
+            name: hadoop-config
+            optional: true
