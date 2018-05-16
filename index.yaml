@@ -3,7 +3,25 @@ entries:
   dataiku-dss:
   - apiVersion: v1
     appVersion: 4.2.2
-    created: 2018-05-04T12:09:39.350973395+02:00
+    created: 2018-05-16T16:49:15.871584713+02:00
+    description: Dataiku DSS is the collaborative data science software platform for
+      teams of data scientists, data analysts, and engineers to explore, prototype,
+      build, and deliver their own data products more efficiently.
+    digest: 380b96751cf86a697fb100688fd06e80d97e0194647afdabafaf12c9b1dda1d7
+    home: https://www.dataiku.com/
+    icon: https://www.dataiku.com/static/img/theme/logo/dataiku.png
+    keywords:
+    - dataiku
+    maintainers:
+    - name: dataiku
+      url: https://www.dataiku.com/
+    name: dataiku-dss
+    urls:
+    - dataiku-dss-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v1
+    appVersion: 4.2.2
+    created: 2018-05-16T16:49:15.867537125+02:00
     description: Dataiku DSS is the collaborative data science software platform for
       teams of data scientists, data analysts, and engineers to explore, prototype,
       build, and deliver their own data products more efficiently.
@@ -21,7 +39,7 @@ entries:
     version: 1.0.0
   - apiVersion: v1
     appVersion: 4.2.2
-    created: 2018-05-04T12:09:39.348864912+02:00
+    created: 2018-05-16T16:49:15.865275018+02:00
     description: Dataiku DSS is the collaborative data science software platform for
       teams of data scientists, data analysts, and engineers to explore, prototype,
       build, and deliver their own data products more efficiently.
@@ -40,7 +58,29 @@ entries:
   jupyter-haskell-nbk:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-05-04T12:09:39.353826803+02:00
+    created: 2018-05-16T16:49:15.878717142+02:00
+    description: The Jupyter Notebook is an open-source web application that allows
+      you to create and share documents that contain live code, equations, visualizations
+      and narrative text. Uses include data cleaning and transformation, numerical
+      simulation, statistical modeling, data visualization, machine learning, and
+      much more.
+    digest: be3219b72eb32bc6a84d51485926d5d70dc2e476f03196b19eb4d8c66c5451bc
+    home: http://jupyter.org/
+    icon: http://jupyter.org/assets/nav_logo.svg
+    keywords:
+    - jupyter
+    - haskell
+    maintainers:
+    - email: truc@jupyter.org
+      name: jupyter
+      url: http://jupyter.org/
+    name: jupyter-haskell-nbk
+    urls:
+    - jupyter-haskell-nbk-1.5.0.tgz
+    version: 1.5.0
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-05-16T16:49:15.874524712+02:00
     description: The Jupyter Notebook is an open-source web application that allows
       you to create and share documents that contain live code, equations, visualizations
       and narrative text. Uses include data cleaning and transformation, numerical
@@ -61,7 +101,7 @@ entries:
     version: 1.4.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-05-04T12:09:39.352803284+02:00
+    created: 2018-05-16T16:49:15.873517707+02:00
     description: The Jupyter Notebook is an open-source web application that allows
       you to create and share documents that contain live code, equations, visualizations
       and narrative text. Uses include data cleaning and transformation, numerical
@@ -82,7 +122,7 @@ entries:
     version: 1.3.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-05-04T12:09:39.351798582+02:00
+    created: 2018-05-16T16:49:15.872468659+02:00
     description: The Jupyter Notebook is an open-source web application that allows
       you to create and share documents that contain live code, equations, visualizations
       and narrative text. Uses include data cleaning and transformation, numerical
@@ -103,7 +143,7 @@ entries:
     version: 1.2.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-05-04T12:09:39.351501583+02:00
+    created: 2018-05-16T16:49:15.872177711+02:00
     description: The Jupyter Notebook is an open-source web application that allows
       you to create and share documents that contain live code, equations, visualizations
       and narrative text. Uses include data cleaning and transformation, numerical
@@ -124,7 +164,7 @@ entries:
     version: 1.1.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-05-04T12:09:39.351192779+02:00
+    created: 2018-05-16T16:49:15.871852734+02:00
     description: A Helm chart for Kubernetes
     digest: d91f8ef010a4c13e0578ca86923f71bbbee872f3f41a89e582aaf9aaf9b2b44b
     name: jupyter-haskell-nbk
@@ -134,7 +174,28 @@ entries:
   jupyter-python-nbk:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-05-04T12:09:39.355389171+02:00
+    created: 2018-05-16T16:49:15.886368984+02:00
+    description: The Jupyter Notebook is an open-source web application that allows
+      you to create and share documents that contain live code, equations, visualizations
+      and narrative text. Uses include data cleaning and transformation, numerical
+      simulation, statistical modeling, data visualization, machine learning, and
+      much more.
+    digest: 75981e9f0aaf6c159c8a7c6f3894eb27e3d41f5d2251162556f799acb8c3b628
+    home: http://jupyter.org/
+    icon: http://jupyter.org/assets/nav_logo.svg
+    keywords:
+    - jupyter
+    - python
+    maintainers:
+    - name: jupyter
+      url: http://jupyter.org/
+    name: jupyter-python-nbk
+    urls:
+    - jupyter-python-nbk-1.3.0.tgz
+    version: 1.3.0
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-05-16T16:49:15.881098009+02:00
     description: The Jupyter Notebook is an open-source web application that allows
       you to create and share documents that contain live code, equations, visualizations
       and narrative text. Uses include data cleaning and transformation, numerical
@@ -154,7 +215,7 @@ entries:
     version: 1.2.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-05-04T12:09:39.354338274+02:00
+    created: 2018-05-16T16:49:15.879629097+02:00
     description: The Jupyter Notebook is an open-source web application that allows
       you to create and share documents that contain live code, equations, visualizations
       and narrative text. Uses include data cleaning and transformation, numerical
@@ -175,7 +236,7 @@ entries:
     version: 1.1.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-05-04T12:09:39.354056367+02:00
+    created: 2018-05-16T16:49:15.879218077+02:00
     description: A Helm chart for Kubernetes
     digest: 69ac00bca5524497a6eced81f2955da60e62b2228953ab45010792352a84eb4e
     name: jupyter-python-nbk
@@ -185,7 +246,29 @@ entries:
   jupyter-r-nbk:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-05-04T12:09:39.357016864+02:00
+    created: 2018-05-16T16:49:15.892699632+02:00
+    description: The Jupyter Notebook is an open-source web application that allows
+      you to create and share documents that contain live code, equations, visualizations
+      and narrative text. Uses include data cleaning and transformation, numerical
+      simulation, statistical modeling, data visualization, machine learning, and
+      much more.
+    digest: 641457e8380e1d6b488e3c6eac172e58cbe523d589dfc651119ee47c05c252b1
+    home: http://jupyter.org/
+    icon: http://jupyter.org/assets/nav_logo.svg
+    keywords:
+    - jupyter
+    - r
+    maintainers:
+    - email: truc@jupyter.org
+      name: jupyter
+      url: http://jupyter.org/
+    name: jupyter-r-nbk
+    urls:
+    - jupyter-r-nbk-1.3.0.tgz
+    version: 1.3.0
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-05-16T16:49:15.888673736+02:00
     description: The Jupyter Notebook is an open-source web application that allows
       you to create and share documents that contain live code, equations, visualizations
       and narrative text. Uses include data cleaning and transformation, numerical
@@ -206,7 +289,7 @@ entries:
     version: 1.2.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-05-04T12:09:39.355967874+02:00
+    created: 2018-05-16T16:49:15.887091291+02:00
     description: The Jupyter Notebook is an open-source web application that allows
       you to create and share documents that contain live code, equations, visualizations
       and narrative text. Uses include data cleaning and transformation, numerical
@@ -227,11 +310,11 @@ entries:
     version: 1.1.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-05-04T12:09:39.355632619+02:00
+    created: 2018-05-16T16:49:15.886721776+02:00
     description: A Helm chart for Kubernetes
     digest: 3ff5a91e5878fe37d16b0656ad871cc5d2bf69f8ebc54bf7940b60f208a48619
     name: jupyter-r-nbk
     urls:
     - jupyter-r-nbk-1.0.0.tgz
     version: 1.0.0
-generated: 2018-05-04T12:09:39.346623138+02:00
+generated: 2018-05-16T16:49:15.862994816+02:00
