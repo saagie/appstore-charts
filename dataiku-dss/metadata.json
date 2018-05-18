@@ -1,11 +1,13 @@
 {
-	"displayTitle": "Dataiku DSS",
+	"title": "Dataiku DSS",
 	"categories": [
 		"Data Science"
 	],
-	"icon": "dataiku.png",
+	"icon": "dataiku-icon.svg",
 	"screenshots": [
 		"Screenshot_projects_dataiku.png",
 		"Screenshot_catalog_dataiku.png"
-	]
+	],
+	"subTitle": "Collaborative Data Science",
+	"cover": "dataiku-cover.png"
 }

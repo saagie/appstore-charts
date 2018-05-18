@@ -1,11 +1,13 @@
 {
-	"displayTitle": "jupyter python notebook",
+	"title": "jupyter r notebook",
 	"categories": [
 		"Data Science"
 	],
-	"icon": "icon_jupyter.svg",
+	"icon": "jupyter-r-icon.svg",
 	"screenshots": [
 		"screenshot_jupyter_1.png",
 		"screenshot_jupyter_2.png"
-	]
+	],
+	"subTitle": "Data Science Notebook",
+    "cover": "jupyter-r-cover.png"
 }
