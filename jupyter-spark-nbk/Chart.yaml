@@ -4,7 +4,7 @@ description: The Jupyter Notebook is an open-source web application that allows 
   that contain live code, equations, visualizations and narrative text. Uses include data cleaning and
   transformation, numerical simulation, statistical modeling, data visualization,
   machine learning, and much more.
-name: jupyter-python-nbk
+name: jupyter-spark-nbk
 version: 0.1.0
 keywords:
   - jupyter
