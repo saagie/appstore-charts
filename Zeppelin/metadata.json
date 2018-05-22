@@ -1,0 +1,13 @@
+{
+	"title": "Apache Zeppelin",
+	"categories": [
+		"Data Science"
+	],
+	"icon": "zeppelin-icon.svg",
+	"screenshots": [
+		"zeppelin-screenshot.jpg",
+		"zeppelin-screenshot-2.ong"
+	],
+	"subTitle": "Web-based notebook",
+	"cover": "zeppelin-cover.png"
+}
