@@ -3,7 +3,7 @@ entries:
   dataiku-dss:
   - apiVersion: v1
     appVersion: 4.2.2
-    created: 2018-05-18T17:55:58.82051339+02:00
+    created: 2018-05-22T10:50:20.313785986+02:00
     description: Dataiku DSS is the collaborative data science software platform for
       teams of data scientists, data analysts, and engineers to explore, prototype,
       build, and deliver their own data products more efficiently.
@@ -21,7 +21,7 @@ entries:
   jupyter-python-nbk:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-05-18T17:55:58.824490868+02:00
+    created: 2018-05-22T10:50:20.317885145+02:00
     description: The Jupyter Notebook is an open-source web application that allows
       you to create and share documents that contain live code, equations, visualizations
       and narrative text. Uses include data cleaning and transformation, numerical
@@ -43,7 +43,7 @@ entries:
   jupyter-r-nbk:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-05-18T17:55:58.828349131+02:00
+    created: 2018-05-22T10:50:20.321697294+02:00
     description: The Jupyter Notebook is an open-source web application that allows
       you to create and share documents that contain live code, equations, visualizations
       and narrative text. Uses include data cleaning and transformation, numerical
@@ -65,7 +65,7 @@ entries:
   jupyter-spark-nbk:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-05-18T17:55:58.832453665+02:00
+    created: 2018-05-22T10:50:20.325643376+02:00
     description: The Jupyter Notebook is an open-source web application that allows
       you to create and share documents that contain live code, equations, visualizations
       and narrative text. Uses include data cleaning and transformation, numerical
@@ -87,10 +87,10 @@ entries:
   trifacta:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-05-18T17:55:58.837790128+02:00
+    created: 2018-05-22T10:50:20.330343235+02:00
     description: Trifacta is a data preparation platform that empowers analytics champions
       and data engineers to explore, assess and refine data for analysis.
-    digest: 6684ce8ff97fbccf2fee016dedd5bdfc5009b6f58aeb79e327dbc43dbb1ed4c7
+    digest: d3a0b2dd6288a9a69b28935a09f83e827cee4682e7d5aedc3f1ee3660f825951
     home: https://www.trifacta.com/
     keywords:
     - trifacta
@@ -100,4 +100,4 @@ entries:
     urls:
     - trifacta-0.1.0.tgz
     version: 0.1.0
-generated: 2018-05-18T17:55:58.816119992+02:00
+generated: 2018-05-22T10:50:20.309588411+02:00
