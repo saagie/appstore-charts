@@ -1,9 +1,26 @@
 apiVersion: v1
 entries:
+  Zeppelin:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-05-22T11:43:48.377861604+02:00
+    description: Web-based notebook that enables data-driven, interactive data analytics
+      and collaborative documents with SQL, Scala and more.
+    digest: aa1d00a313131ae1b5c44647c9618c07b691b5683ea9bac79e54148bc9509cd9
+    home: https://zeppelin.apache.org/
+    keywords:
+    - zeppelin
+    - apache
+    maintainers:
+    - name: Apache
+    name: Zeppelin
+    urls:
+    - Zeppelin-0.1.0.tgz
+    version: 0.1.0
   dataiku-dss:
   - apiVersion: v1
     appVersion: 4.2.2
-    created: 2018-05-22T10:50:20.313785986+02:00
+    created: 2018-05-22T11:43:48.381871093+02:00
     description: Dataiku DSS is the collaborative data science software platform for
       teams of data scientists, data analysts, and engineers to explore, prototype,
       build, and deliver their own data products more efficiently.
@@ -21,7 +38,7 @@ entries:
   jupyter-python-nbk:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-05-22T10:50:20.317885145+02:00
+    created: 2018-05-22T11:43:48.38572194+02:00
     description: The Jupyter Notebook is an open-source web application that allows
       you to create and share documents that contain live code, equations, visualizations
       and narrative text. Uses include data cleaning and transformation, numerical
@@ -43,7 +60,7 @@ entries:
   jupyter-r-nbk:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-05-22T10:50:20.321697294+02:00
+    created: 2018-05-22T11:43:48.390767259+02:00
     description: The Jupyter Notebook is an open-source web application that allows
       you to create and share documents that contain live code, equations, visualizations
       and narrative text. Uses include data cleaning and transformation, numerical
@@ -65,7 +82,7 @@ entries:
   jupyter-spark-nbk:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-05-22T10:50:20.325643376+02:00
+    created: 2018-05-22T11:43:48.396100642+02:00
     description: The Jupyter Notebook is an open-source web application that allows
       you to create and share documents that contain live code, equations, visualizations
       and narrative text. Uses include data cleaning and transformation, numerical
@@ -84,10 +101,27 @@ entries:
     urls:
     - jupyter-spark-nbk-0.1.0.tgz
     version: 0.1.0
+  r-studio:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-05-22T11:43:48.407317726+02:00
+    description: RStudio is an integrated development environment (IDE) for R. It
+      includes a console, syntax-highlighting editor that supports direct code execution,
+      as well as tools for plotting, history, debugging and workspace management.
+    digest: 4883eb105925b0ec7c0829116b9def320a09b7861272cd80e03a6d9dad219363
+    home: https://www.rstudio.com/
+    keywords:
+    - R
+    maintainers:
+    - name: R Studio
+    name: r-studio
+    urls:
+    - r-studio-0.1.0.tgz
+    version: 0.1.0
   trifacta:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-05-22T10:50:20.330343235+02:00
+    created: 2018-05-22T11:43:48.41405116+02:00
     description: Trifacta is a data preparation platform that empowers analytics champions
       and data engineers to explore, assess and refine data for analysis.
     digest: d3a0b2dd6288a9a69b28935a09f83e827cee4682e7d5aedc3f1ee3660f825951
@@ -100,4 +134,4 @@ entries:
     urls:
     - trifacta-0.1.0.tgz
     version: 0.1.0
-generated: 2018-05-22T10:50:20.309588411+02:00
+generated: 2018-05-22T11:43:48.374379932+02:00
