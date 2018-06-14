@@ -1,30 +1,13 @@
 apiVersion: v1
 entries:
-  Zeppelin:
-  - apiVersion: v1
-    appVersion: "1.0"
-    created: 2018-05-22T11:43:48.377861604+02:00
-    description: Web-based notebook that enables data-driven, interactive data analytics
-      and collaborative documents with SQL, Scala and more.
-    digest: aa1d00a313131ae1b5c44647c9618c07b691b5683ea9bac79e54148bc9509cd9
-    home: https://zeppelin.apache.org/
-    keywords:
-    - zeppelin
-    - apache
-    maintainers:
-    - name: Apache
-    name: Zeppelin
-    urls:
-    - Zeppelin-0.1.0.tgz
-    version: 0.1.0
   dataiku-dss:
   - apiVersion: v1
     appVersion: 4.2.2
-    created: 2018-05-22T11:43:48.381871093+02:00
+    created: 2018-06-14T16:37:11.567820567+02:00
     description: Dataiku DSS is the collaborative data science software platform for
       teams of data scientists, data analysts, and engineers to explore, prototype,
       build, and deliver their own data products more efficiently.
-    digest: d6f6abe28dd0bd2f990a36d7381f66d6a4b70264635f9a3dcafcae444baf46f0
+    digest: 1613507d06891ab9dbd1741266e015854e47641f2f433dc4968b2bbd82935ecf
     home: https://www.dataiku.com/
     keywords:
     - dataiku
@@ -38,13 +21,13 @@ entries:
   jupyter-python-nbk:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-05-22T11:43:48.38572194+02:00
+    created: 2018-06-14T16:37:11.571669568+02:00
     description: The Jupyter Notebook is an open-source web application that allows
       you to create and share documents that contain live code, equations, visualizations
       and narrative text. Uses include data cleaning and transformation, numerical
       simulation, statistical modeling, data visualization, machine learning, and
       much more.
-    digest: c6d5de621e458ba3a137b7e190fd2aba3908d672c161f3e72a246f99941e332a
+    digest: c5b1eb9cfef2e174fc51ced657b7b9c2108e539ec664bcbef180f5ef4c1945e4
     home: http://jupyter.org/
     icon: http://jupyter.org/assets/nav_logo.svg
     keywords:
@@ -60,13 +43,13 @@ entries:
   jupyter-r-nbk:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-05-22T11:43:48.390767259+02:00
+    created: 2018-06-14T16:37:11.575900509+02:00
     description: The Jupyter Notebook is an open-source web application that allows
       you to create and share documents that contain live code, equations, visualizations
       and narrative text. Uses include data cleaning and transformation, numerical
       simulation, statistical modeling, data visualization, machine learning, and
       much more.
-    digest: e236f11429e8a676dd7cfdeb0a79e5797ca2f59c4751e718e8d318a1c655a42f
+    digest: ffb55d15b0d6fdf84086146ce311bac7bc70fc29d9de60e7d11d253652f0d88d
     home: http://jupyter.org/
     icon: http://jupyter.org/assets/nav_logo.svg
     keywords:
@@ -82,13 +65,13 @@ entries:
   jupyter-spark-nbk:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-05-22T11:43:48.396100642+02:00
+    created: 2018-06-14T16:37:11.580374339+02:00
     description: The Jupyter Notebook is an open-source web application that allows
       you to create and share documents that contain live code, equations, visualizations
       and narrative text. Uses include data cleaning and transformation, numerical
       simulation, statistical modeling, data visualization, machine learning, and
       much more.
-    digest: 64c7aa5b6f7cb2d45e2c0c74ce8f2d14188afb27792f7a744ca137093fb4ed2b
+    digest: d5262d5e7c00aa441f48b80a1afcc194ae0411ca38bb2599ffbd3ab7ea847534
     home: http://jupyter.org/
     icon: http://jupyter.org/assets/nav_logo.svg
     keywords:
@@ -104,11 +87,11 @@ entries:
   r-studio:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-05-22T11:43:48.407317726+02:00
+    created: 2018-06-14T16:37:11.594736217+02:00
     description: RStudio is an integrated development environment (IDE) for R. It
       includes a console, syntax-highlighting editor that supports direct code execution,
       as well as tools for plotting, history, debugging and workspace management.
-    digest: 4883eb105925b0ec7c0829116b9def320a09b7861272cd80e03a6d9dad219363
+    digest: 150553d8aee643d08d7993e78b4cd88f8e931c392b210b7635df094c97868163
     home: https://www.rstudio.com/
     keywords:
     - R
@@ -121,10 +104,10 @@ entries:
   trifacta:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-05-22T11:43:48.41405116+02:00
+    created: 2018-06-14T16:37:11.600072954+02:00
     description: Trifacta is a data preparation platform that empowers analytics champions
       and data engineers to explore, assess and refine data for analysis.
-    digest: d3a0b2dd6288a9a69b28935a09f83e827cee4682e7d5aedc3f1ee3660f825951
+    digest: 99e6530e5767596f10619cd9c09defac348ed2e2c1a6378c93103fb901a9df10
     home: https://www.trifacta.com/
     keywords:
     - trifacta
@@ -134,4 +117,21 @@ entries:
     urls:
     - trifacta-0.1.0.tgz
     version: 0.1.0
-generated: 2018-05-22T11:43:48.374379932+02:00
+  zeppelin:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-06-14T16:37:11.603516316+02:00
+    description: Web-based notebook that enables data-driven, interactive data analytics
+      and collaborative documents with SQL, Scala and more.
+    digest: 6e30e2f5fd56cb24984d8903a0467e64d96f1f00377ed6b33baadb9815baa5c6
+    home: https://zeppelin.apache.org/
+    keywords:
+    - zeppelin
+    - apache
+    maintainers:
+    - name: Apache
+    name: zeppelin
+    urls:
+    - zeppelin-0.1.0.tgz
+    version: 0.1.0
+generated: 2018-06-14T16:37:11.562318846+02:00
