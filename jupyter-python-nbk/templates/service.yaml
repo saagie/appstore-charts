@@ -6,7 +6,6 @@ spec:
   type: {{ .Values.service.type }}
   ports:
     - port: {{ .Values.service.port }}
-      targetPort: {{ .Values.service.port }}
       name: {{ template "jupyter-python-nbk.fullname" . }}
   selector:
     app: {{ template "jupyter-python-nbk.fullname" . }}

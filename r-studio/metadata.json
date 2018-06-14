@@ -9,5 +9,6 @@
 		"RStudio-Screenshot.png"
 	],
 	"subTitle": "Open source and entreprise-ready professional software for R",
-	"cover": "r-studio-cover.png"
+	"cover": "r-studio-cover.png",
+	"installable": false
 }

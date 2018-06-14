@@ -9,5 +9,6 @@
 		"trifacta-screen-2.jpg"
 	],
 	"subTitle": "Data Wrangling Tool",
-	"cover": "trifacta-cover.png"
+	"cover": "trifacta-cover.png",
+	"installable": false
 }

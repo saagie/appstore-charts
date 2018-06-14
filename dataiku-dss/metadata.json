@@ -1,6 +1,5 @@
 {
 	"title": "Dataiku DSS",
-	"video": "https://www.youtube.com/watch?v=kHF-vFxzNGE",
 	"categories": [
 		"Data Science"
 	],
@@ -10,5 +9,6 @@
 		"Screenshot_catalog_dataiku.png"
 	],
 	"subTitle": "Collaborative Data Science",
-	"cover": "dataiku-cover.png"
+	"cover": "dataiku-cover.png",
+	"installable": true
 }
