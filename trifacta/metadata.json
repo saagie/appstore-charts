@@ -10,6 +10,5 @@
 	],
 	"subTitle": "Data Wrangling Tool",
 	"cover": "trifacta-cover.png",
-	"installable": false,
-	"available": false
+	"installable": false
 }
