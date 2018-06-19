@@ -8,7 +8,7 @@
 		"screenshot_jupyter_1.png",
 		"screenshot_jupyter_2.png"
 	],
-	"subTitle": "Data Science Notebook",
+	"subTitle": "Data Science Python Notebook",
 	"cover": "jupyter-cover.png",
 	"installable": true
 }
