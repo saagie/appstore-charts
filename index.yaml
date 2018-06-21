@@ -3,7 +3,7 @@ entries:
   dataiku-dss:
   - apiVersion: v1
     appVersion: 4.2.2
-    created: 2018-06-19T13:46:25.217706673+02:00
+    created: 2018-06-21T15:23:22.473853947+02:00
     description: Dataiku DSS is the collaborative data science software platform for
       teams of data scientists, data analysts, and engineers to explore, prototype,
       build, and deliver their own data products more efficiently.
@@ -21,7 +21,7 @@ entries:
   jupyter-python-nbk:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-06-19T13:46:25.221907901+02:00
+    created: 2018-06-21T15:23:22.477048952+02:00
     description: The Jupyter Notebook is an open-source web application that allows
       you to create and share documents that contain live code, equations, visualizations
       and narrative text. Uses include data cleaning and transformation, numerical
@@ -43,7 +43,7 @@ entries:
   jupyter-r-nbk:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-06-19T13:46:25.226539473+02:00
+    created: 2018-06-21T15:23:22.48030757+02:00
     description: The Jupyter Notebook is an open-source web application that allows
       you to create and share documents that contain live code, equations, visualizations
       and narrative text. Uses include data cleaning and transformation, numerical
@@ -65,7 +65,7 @@ entries:
   jupyter-spark-nbk:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-06-19T13:46:25.230411759+02:00
+    created: 2018-06-21T15:23:22.483705599+02:00
     description: The Jupyter Notebook is an open-source web application that allows
       you to create and share documents that contain live code, equations, visualizations
       and narrative text. Uses include data cleaning and transformation, numerical
@@ -87,11 +87,11 @@ entries:
   r-studio:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-06-19T13:46:25.239777123+02:00
+    created: 2018-06-21T15:23:22.493077052+02:00
     description: RStudio is an integrated development environment (IDE) for R. It
       includes a console, syntax-highlighting editor that supports direct code execution,
       as well as tools for plotting, history, debugging and workspace management.
-    digest: 150553d8aee643d08d7993e78b4cd88f8e931c392b210b7635df094c97868163
+    digest: 7cb60f0ac33706e29f85b6ef355ec14812f58fcc04b6078ed840b9be02542d28
     home: https://www.rstudio.com/
     keywords:
     - R
@@ -104,7 +104,7 @@ entries:
   trifacta:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-06-19T13:46:25.243939005+02:00
+    created: 2018-06-21T15:23:22.497737972+02:00
     description: Trifacta is a data preparation platform that empowers analytics champions
       and data engineers to explore, assess and refine data for analysis.
     digest: 99e6530e5767596f10619cd9c09defac348ed2e2c1a6378c93103fb901a9df10
@@ -120,7 +120,7 @@ entries:
   zeppelin:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-06-19T13:46:25.247860671+02:00
+    created: 2018-06-21T15:23:22.50059844+02:00
     description: Web-based notebook that enables data-driven, interactive data analytics
       and collaborative documents with SQL, Scala and more.
     digest: 6e30e2f5fd56cb24984d8903a0467e64d96f1f00377ed6b33baadb9815baa5c6
@@ -134,4 +134,4 @@ entries:
     urls:
     - zeppelin-0.1.0.tgz
     version: 0.1.0
-generated: 2018-06-19T13:46:25.21382103+02:00
+generated: 2018-06-21T15:23:22.470408172+02:00
