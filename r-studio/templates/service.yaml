@@ -11,9 +11,6 @@ spec:
   type: {{ .Values.service.type }}
   ports:
     - port: {{ .Values.service.port }}
-      targetPort: http
-      protocol: TCP
-      name: http
+      name: {{ template "r-studio.fullname" . }}
   selector:
-    app: {{ template "r-studio.name" . }}
-    release: {{ .Release.Name }}
+    app: {{ template "r-studio.fullname" . }}

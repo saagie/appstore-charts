@@ -11,41 +11,32 @@ spec:
   replicas: {{ .Values.replicaCount }}
   selector:
     matchLabels:
-      app: {{ template "r-studio.name" . }}
-      release: {{ .Release.Name }}
+      app: {{ template "r-studio.fullname" . }}
   template:
     metadata:
       labels:
-        app: {{ template "r-studio.name" . }}
-        release: {{ .Release.Name }}
+        app: {{ template "r-studio.fullname" . }}
     spec:
       containers:
         - name: {{ .Chart.Name }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
-            - name: http
-              containerPort: 80
-              protocol: TCP
-          livenessProbe:
-            httpGet:
-              path: /
-              port: http
-          readinessProbe:
-            httpGet:
-              path: /
-              port: http
+            - containerPort: {{ .Values.service.port }}
+          volumeMounts:
+            - name: {{ template "r-studio.fullname" . }}-storage
+              mountPath: /home
+          # livenessProbe:
+          #   httpGet:
+          #     path: /
+          #     port: http
+          # readinessProbe:
+          #   httpGet:
+          #     path: /
+          #     port: http
           resources:
 {{ toYaml .Values.resources | indent 12 }}
-    {{- with .Values.nodeSelector }}
-      nodeSelector:
-{{ toYaml . | indent 8 }}
-    {{- end }}
-    {{- with .Values.affinity }}
-      affinity:
-{{ toYaml . | indent 8 }}
-    {{- end }}
-    {{- with .Values.tolerations }}
-      tolerations:
-{{ toYaml . | indent 8 }}
-    {{- end }}
+      volumes:
+        - name: {{ template "r-studio.fullname" . }}-storage
+          persistentVolumeClaim:
+            claimName: {{ template "r-studio.fullname" . }}
