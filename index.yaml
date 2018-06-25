@@ -3,7 +3,7 @@ entries:
   dataiku-dss:
   - apiVersion: v1
     appVersion: 4.2.2
-    created: 2018-06-25T12:16:39.787904769+02:00
+    created: 2018-06-25T12:17:59.887588819+02:00
     description: Dataiku DSS is the collaborative data science software platform for
       teams of data scientists, data analysts, and engineers to explore, prototype,
       build, and deliver their own data products more efficiently.
@@ -21,7 +21,7 @@ entries:
   jupyter-python-nbk:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-06-25T12:16:39.806810237+02:00
+    created: 2018-06-25T12:17:59.891536048+02:00
     description: The Jupyter Notebook is an open-source web application that allows
       you to create and share documents that contain live code, equations, visualizations
       and narrative text. Uses include data cleaning and transformation, numerical
@@ -43,7 +43,7 @@ entries:
   jupyter-r-nbk:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-06-25T12:16:39.832549659+02:00
+    created: 2018-06-25T12:17:59.895317931+02:00
     description: The Jupyter Notebook is an open-source web application that allows
       you to create and share documents that contain live code, equations, visualizations
       and narrative text. Uses include data cleaning and transformation, numerical
@@ -65,7 +65,7 @@ entries:
   jupyter-spark-nbk:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-06-25T12:16:39.844722607+02:00
+    created: 2018-06-25T12:17:59.899793951+02:00
     description: The Jupyter Notebook is an open-source web application that allows
       you to create and share documents that contain live code, equations, visualizations
       and narrative text. Uses include data cleaning and transformation, numerical
@@ -87,11 +87,11 @@ entries:
   r-studio:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-06-25T12:16:39.935523241+02:00
+    created: 2018-06-25T12:17:59.910146623+02:00
     description: RStudio is an integrated development environment (IDE) for R. It
       includes a console, syntax-highlighting editor that supports direct code execution,
       as well as tools for plotting, history, debugging and workspace management.
-    digest: 150553d8aee643d08d7993e78b4cd88f8e931c392b210b7635df094c97868163
+    digest: 7cb60f0ac33706e29f85b6ef355ec14812f58fcc04b6078ed840b9be02542d28
     home: https://www.rstudio.com/
     keywords:
     - R
@@ -104,7 +104,7 @@ entries:
   zeppelin:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-06-25T12:16:39.973516503+02:00
+    created: 2018-06-25T12:17:59.914169702+02:00
     description: Web-based notebook that enables data-driven, interactive data analytics
       and collaborative documents with SQL, Scala and more.
     digest: 6e30e2f5fd56cb24984d8903a0467e64d96f1f00377ed6b33baadb9815baa5c6
@@ -118,4 +118,4 @@ entries:
     urls:
     - zeppelin-0.1.0.tgz
     version: 0.1.0
-generated: 2018-06-25T12:16:39.757459996+02:00
+generated: 2018-06-25T12:17:59.883130187+02:00
