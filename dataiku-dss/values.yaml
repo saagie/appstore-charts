@@ -26,7 +26,11 @@ ingress:
   #    hosts:
   #      - chart-example.local
 
-storageSize: 10Gi
+
+## Persist data to a persistent volume
+persistence:
+  accessMode: ReadWriteOnce
+  size: 2Gi
 
 resources:
   # We usually recommend not to specify default resources and to leave this as a conscious
