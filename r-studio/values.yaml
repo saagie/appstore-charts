@@ -19,8 +19,7 @@ ingress:
 ## Persist data to a persistent volume
 persistence:
   accessMode: ReadWriteOnce
-
-storageSize: 2Gi
+  size: 2Gi
 
 resources:
   # We usually recommend not to specify default resources and to leave this as a conscious

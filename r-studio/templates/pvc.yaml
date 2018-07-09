@@ -12,4 +12,11 @@ spec:
     - {{ .Values.persistence.accessMode }}
   resources:
     requests:
-      storage: {{ .Values.storageSize }}
+      storage: {{ .Values.persistence.size }}
+{{- if .Values.persistence.storageClass }}
+{{- if (eq "-" .Values.persistence.storageClass) }}
+  storageClassName: ""
+{{- else }}
+  storageClassName: "{{ .Values.persistence.storageClass }}"
+{{- end }}
+{{- end }}
