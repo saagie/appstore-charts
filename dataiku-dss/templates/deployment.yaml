@@ -36,7 +36,7 @@ spec:
       volumes:
         - name: task-pv-storage
           persistentVolumeClaim:
-            claimName: task-pv-claim-{{ template "dataiku-dss.fullname" . }}
+            claimName: {{ template "dataiku-dss.fullname" . }}
         - name: config-volume
           configMap:
             name: hadoop-config

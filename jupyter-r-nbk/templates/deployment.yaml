@@ -41,7 +41,7 @@ spec:
       volumes:
         - name: task-pv-storage
           persistentVolumeClaim:
-            claimName: task-pv-claim-{{ template "jupyter-r-nbk.fullname" . }}
+            claimName: {{ template "jupyter-r-nbk.fullname" . }}
 #    {{- with .Values.nodeSelector }}
 #      nodeSelector:
 #{{ toYaml . | indent 8 }}
