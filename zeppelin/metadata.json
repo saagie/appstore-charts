@@ -9,6 +9,6 @@
 		"zeppelin-screenshot-2.png"
 	],
 	"subTitle": "Web-based notebook",
-	"cover": "zeppelin-cover.png",
+	/*"cover": "zeppelin-cover.png",*/
 	"installable": false
 }
