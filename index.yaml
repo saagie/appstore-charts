@@ -3,7 +3,7 @@ entries:
   dataiku-dss:
   - apiVersion: v1
     appVersion: 4.2.2
-    created: 2018-07-12T14:30:05.443129287+02:00
+    created: 2018-07-12T14:56:44.54987525+02:00
     description: Dataiku DSS is the collaborative data science software platform for
       teams of data scientists, data analysts, and engineers to explore, prototype,
       build, and deliver their own data products more efficiently.
@@ -21,7 +21,7 @@ entries:
   jupyter-python-nbk:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-07-12T14:30:05.448532481+02:00
+    created: 2018-07-12T14:56:44.553672136+02:00
     description: The Jupyter Notebook is an open-source web application that allows
       you to create and share documents that contain live code, equations, visualizations
       and narrative text. Uses include data cleaning and transformation, numerical
@@ -43,7 +43,7 @@ entries:
   jupyter-r-nbk:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-07-12T14:30:05.45387322+02:00
+    created: 2018-07-12T14:56:44.5575027+02:00
     description: The Jupyter Notebook is an open-source web application that allows
       you to create and share documents that contain live code, equations, visualizations
       and narrative text. Uses include data cleaning and transformation, numerical
@@ -65,7 +65,7 @@ entries:
   jupyter-spark-nbk:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-07-12T14:30:05.459567369+02:00
+    created: 2018-07-12T14:56:44.561487222+02:00
     description: The Jupyter Notebook is an open-source web application that allows
       you to create and share documents that contain live code, equations, visualizations
       and narrative text. Uses include data cleaning and transformation, numerical
@@ -87,7 +87,7 @@ entries:
   r-studio:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-07-12T14:30:05.470942556+02:00
+    created: 2018-07-12T14:56:44.572226314+02:00
     description: RStudio is an integrated development environment (IDE) for R. It
       includes a console, syntax-highlighting editor that supports direct code execution,
       as well as tools for plotting, history, debugging and workspace management.
@@ -104,10 +104,10 @@ entries:
   zeppelin:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-07-12T14:30:05.474252534+02:00
+    created: 2018-07-12T14:56:44.575660259+02:00
     description: Web-based notebook that enables data-driven, interactive data analytics
       and collaborative documents with SQL, Scala and more.
-    digest: 2224b6f8d6a9e91faf266145b88ec02bec0c94f309513c5b0b0bb385a4d632ff
+    digest: 6e30e2f5fd56cb24984d8903a0467e64d96f1f00377ed6b33baadb9815baa5c6
     home: https://zeppelin.apache.org/
     keywords:
     - zeppelin
@@ -118,4 +118,4 @@ entries:
     urls:
     - zeppelin-0.1.0.tgz
     version: 0.1.0
-generated: 2018-07-12T14:30:05.437673461+02:00
+generated: 2018-07-12T14:56:44.546029577+02:00
