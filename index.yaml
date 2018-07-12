@@ -3,11 +3,11 @@ entries:
   dataiku-dss:
   - apiVersion: v1
     appVersion: 4.2.2
-    created: 2018-07-09T16:40:32.918253085+02:00
+    created: 2018-07-12T11:52:31.77742841+02:00
     description: Dataiku DSS is the collaborative data science software platform for
       teams of data scientists, data analysts, and engineers to explore, prototype,
       build, and deliver their own data products more efficiently.
-    digest: b93dae51522c73e02fa2f151f519506d2dc8bbb678bb825ac79e90fc2df8aeeb
+    digest: f39e175ad1443d264854ee473a9df251869333b871d4565bd663363595e26c30
     home: https://www.dataiku.com/
     keywords:
     - dataiku
@@ -21,13 +21,13 @@ entries:
   jupyter-python-nbk:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-07-09T16:40:32.922084616+02:00
+    created: 2018-07-12T11:52:31.783075529+02:00
     description: The Jupyter Notebook is an open-source web application that allows
       you to create and share documents that contain live code, equations, visualizations
       and narrative text. Uses include data cleaning and transformation, numerical
       simulation, statistical modeling, data visualization, machine learning, and
       much more.
-    digest: e958fdd6568428175b2458c7dff18a1a7d3d35bfee6e63e110e03e6a50006f98
+    digest: b5a7f7bb4062f577fcd49bc47a32eef080cf0ee1087d4c53d4ac5a2be4ef1088
     home: http://jupyter.org/
     icon: http://jupyter.org/assets/nav_logo.svg
     keywords:
@@ -43,13 +43,13 @@ entries:
   jupyter-r-nbk:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-07-09T16:40:32.925848672+02:00
+    created: 2018-07-12T11:52:31.789179289+02:00
     description: The Jupyter Notebook is an open-source web application that allows
       you to create and share documents that contain live code, equations, visualizations
       and narrative text. Uses include data cleaning and transformation, numerical
       simulation, statistical modeling, data visualization, machine learning, and
       much more.
-    digest: d308038ee2b738ec18a1b7cb91d3d7b941e03c1de557ae66b1288bc7ecf96247
+    digest: b90d68f20bf2a4cfce11e93855316bccadba5def56a8859600c1078e68e8a71e
     home: http://jupyter.org/
     icon: http://jupyter.org/assets/nav_logo.svg
     keywords:
@@ -65,7 +65,7 @@ entries:
   jupyter-spark-nbk:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-07-09T16:40:32.929792046+02:00
+    created: 2018-07-12T11:52:31.79367998+02:00
     description: The Jupyter Notebook is an open-source web application that allows
       you to create and share documents that contain live code, equations, visualizations
       and narrative text. Uses include data cleaning and transformation, numerical
@@ -87,7 +87,7 @@ entries:
   r-studio:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-07-09T16:40:32.94035663+02:00
+    created: 2018-07-12T11:52:31.806942082+02:00
     description: RStudio is an integrated development environment (IDE) for R. It
       includes a console, syntax-highlighting editor that supports direct code execution,
       as well as tools for plotting, history, debugging and workspace management.
@@ -104,7 +104,7 @@ entries:
   zeppelin:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-07-09T16:40:32.944457996+02:00
+    created: 2018-07-12T11:52:31.811616883+02:00
     description: Web-based notebook that enables data-driven, interactive data analytics
       and collaborative documents with SQL, Scala and more.
     digest: 6e30e2f5fd56cb24984d8903a0467e64d96f1f00377ed6b33baadb9815baa5c6
@@ -118,4 +118,4 @@ entries:
     urls:
     - zeppelin-0.1.0.tgz
     version: 0.1.0
-generated: 2018-07-09T16:40:32.91397576+02:00
+generated: 2018-07-12T11:52:31.771195583+02:00
