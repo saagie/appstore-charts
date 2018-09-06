@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ template "r-studio.fullname" . }}
+  labels:
+    app: {{ template "r-studio.name" . }}
+    chart: {{ template "r-studio.chart" . }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - port: {{ .Values.service.port }}
+      name: {{ template "r-studio.fullname" . }}
+  selector:
+    app: {{ template "r-studio.fullname" . }}

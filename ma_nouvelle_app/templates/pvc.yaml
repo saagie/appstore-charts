@@ -1,0 +1,22 @@
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+  name: {{ template "r-studio.fullname" . }}
+  labels:
+    app: {{ template "r-studio.fullname" . }}
+    chart: "{{ .Chart.Name }}-{{ .Chart.Version }}"
+    release: "{{ .Release.Name }}"
+    heritage: "{{ .Release.Service }}"
+spec:
+  accessModes:
+    - {{ .Values.persistence.accessMode }}
+  resources:
+    requests:
+      storage: {{ .Values.persistence.size }}
+{{- if .Values.persistence.storageClass }}
+{{- if (eq "-" .Values.persistence.storageClass) }}
+  storageClassName: ""
+{{- else }}
+  storageClassName: "{{ .Values.persistence.storageClass }}"
+{{- end }}
+{{- end }}

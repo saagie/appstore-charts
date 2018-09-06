@@ -1,0 +1,12 @@
+apiVersion: v1
+appVersion: "1.0"
+description: RStudio is an integrated development environment (IDE) for R. It includes a console, syntax-highlighting
+  editor that supports direct code execution, as well as tools for plotting, history, debugging and workspace management.
+name: r-studio
+version: 0.1.0
+keywords:
+  - R
+home: https://www.rstudio.com/
+maintainers:
+  - name: R Studio
+    mail: info@rstudio.com
