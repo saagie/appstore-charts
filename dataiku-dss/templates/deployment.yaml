@@ -11,6 +11,7 @@ spec:
     metadata:
       labels:
         app: {{ template "dataiku-dss.fullname" . }}
+{{ toYaml .Values.labels | indent 8 }}
     spec:
       initContainers:
         - name: volume-mount-hack

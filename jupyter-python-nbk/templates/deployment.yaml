@@ -11,6 +11,7 @@ spec:
     metadata:
       labels:
         app: {{ template "jupyter-python-nbk.fullname" . }}
+{{ toYaml .Values.labels | indent 8 }}
     spec:
       initContainers:
         - name: volume-mount-hack
