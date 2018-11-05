@@ -16,6 +16,7 @@ spec:
     metadata:
       labels:
         app: {{ template "r-studio.fullname" . }}
+{{ toYaml .Values.labels | indent 8 }}
     spec:
       containers:
         - name: {{ .Chart.Name }}
