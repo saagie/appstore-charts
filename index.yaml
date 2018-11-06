@@ -3,11 +3,11 @@ entries:
   dataiku-dss:
   - apiVersion: v1
     appVersion: 4.2.2
-    created: 2018-07-12T14:56:44.54987525+02:00
+    created: 2018-11-06T08:48:24.232115826+01:00
     description: Dataiku DSS is the collaborative data science software platform for
       teams of data scientists, data analysts, and engineers to explore, prototype,
       build, and deliver their own data products more efficiently.
-    digest: f39e175ad1443d264854ee473a9df251869333b871d4565bd663363595e26c30
+    digest: 952aa1ebbc278c6942d4ec884de04abd9ad334d36e4c58c49a75adf24e4a0b33
     home: https://www.dataiku.com/
     keywords:
     - dataiku
@@ -21,13 +21,13 @@ entries:
   jupyter-python-nbk:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-07-12T14:56:44.553672136+02:00
+    created: 2018-11-06T08:48:24.23600371+01:00
     description: The Jupyter Notebook is an open-source web application that allows
       you to create and share documents that contain live code, equations, visualizations
       and narrative text. Uses include data cleaning and transformation, numerical
       simulation, statistical modeling, data visualization, machine learning, and
       much more.
-    digest: b5a7f7bb4062f577fcd49bc47a32eef080cf0ee1087d4c53d4ac5a2be4ef1088
+    digest: 78e699d75d5b52fb332e9f3822f54e27cc4d6c985d14b895fc338532dcba0685
     home: http://jupyter.org/
     icon: http://jupyter.org/assets/nav_logo.svg
     keywords:
@@ -43,13 +43,13 @@ entries:
   jupyter-r-nbk:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-07-12T14:56:44.5575027+02:00
+    created: 2018-11-06T08:48:24.240166801+01:00
     description: The Jupyter Notebook is an open-source web application that allows
       you to create and share documents that contain live code, equations, visualizations
       and narrative text. Uses include data cleaning and transformation, numerical
       simulation, statistical modeling, data visualization, machine learning, and
       much more.
-    digest: b90d68f20bf2a4cfce11e93855316bccadba5def56a8859600c1078e68e8a71e
+    digest: 42a1c6ff700e2cf281d9fe4da8a3030f871b684993c5aab4690cf9ccc44f9f89
     home: http://jupyter.org/
     icon: http://jupyter.org/assets/nav_logo.svg
     keywords:
@@ -65,13 +65,13 @@ entries:
   jupyter-spark-nbk:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-07-12T14:56:44.561487222+02:00
+    created: 2018-11-06T08:48:24.244717743+01:00
     description: The Jupyter Notebook is an open-source web application that allows
       you to create and share documents that contain live code, equations, visualizations
       and narrative text. Uses include data cleaning and transformation, numerical
       simulation, statistical modeling, data visualization, machine learning, and
       much more.
-    digest: d5262d5e7c00aa441f48b80a1afcc194ae0411ca38bb2599ffbd3ab7ea847534
+    digest: d8409ee295eb57342467ab80a5fedcb9b89f45d962c0e506ad680b13fe9bd672
     home: http://jupyter.org/
     icon: http://jupyter.org/assets/nav_logo.svg
     keywords:
@@ -87,11 +87,11 @@ entries:
   r-studio:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-07-12T14:56:44.572226314+02:00
+    created: 2018-11-06T08:48:24.254516918+01:00
     description: RStudio is an integrated development environment (IDE) for R. It
       includes a console, syntax-highlighting editor that supports direct code execution,
       as well as tools for plotting, history, debugging and workspace management.
-    digest: 09c4fb9c82280ceef46ea15aab1a688996b0972fdc60836840cbb44bf81f848e
+    digest: d9558fc43019cd7617d376dd6bdffda32baaad98d35dfe2dcfae0d5ce873d777
     home: https://www.rstudio.com/
     keywords:
     - R
@@ -104,10 +104,10 @@ entries:
   zeppelin:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-07-12T14:56:44.575660259+02:00
+    created: 2018-11-06T08:48:24.257958369+01:00
     description: Web-based notebook that enables data-driven, interactive data analytics
       and collaborative documents with SQL, Scala and more.
-    digest: 6e30e2f5fd56cb24984d8903a0467e64d96f1f00377ed6b33baadb9815baa5c6
+    digest: 0b3837b1a1fed9e9e7a8b3835ba19e8e8c5fb3ef59621dda76b6bbde5963c00b
     home: https://zeppelin.apache.org/
     keywords:
     - zeppelin
@@ -118,4 +118,4 @@ entries:
     urls:
     - zeppelin-0.1.0.tgz
     version: 0.1.0
-generated: 2018-07-12T14:56:44.546029577+02:00
+generated: 2018-11-06T08:48:24.228033964+01:00
